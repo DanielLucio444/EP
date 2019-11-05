@@ -1,0 +1,79 @@
+<!DOCTYPE html5>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="Author" content="Rocket Team">
+		<meta name="keywords" content="Electronic Parts;">
+		<title>Electronic Parts</title>
+		<link rel="shortcut icon"type="image/x-icon"href="C:\Users\Daniel Lucio\Desktop\Pagina Web Reto 1 Rocket Team\Extras\Imagenes/ea.ico"/>
+		<link rel="stylesheet" type="text/css" href="Estilos.css">
+	</head>
+	<body>
+		<section id="todo">
+			<header>
+				<div id="Titulo">
+					<h1>ELECTRONIC PARTS<h1>
+				</div>
+				<div id="EP">
+					<img src="Extras\Imagenes/ep.jpg">
+				</div>
+				<nav class="navegacion">
+					<ul class="menu">
+						<li><a href="Index.html">Inicio</a></li>
+						<li><a href="Nosotros.html" target="_blank">Nosotros</a></li>
+						<li><a href="Servicios.html" target="_blank">Servicios</a>
+							<ul class="submenu">
+								<li><a href="Servicios.html#SRV1" target="_blank">Servicio #1</a></li>
+								<li><a href="Servicios.html#SRV2" target="_blank">Servicio #2</a></li>
+								<li><a href="Servicios.html#SRV3" target="_blank">Servicio #3</a></li>
+							</ul>
+						</li>
+						<li><a href="Acerca de.html" target="_blank">Acerca de</a></li>
+						<li><a href="Contacto.html" target="_blank">Contacto</a></li>
+					</ul>
+				</nav>
+			</header>				
+		
+			<footer>
+				<br>
+				<br>
+				<h2>Para cualquier duda, siempre podéis enviarnos un email, o contactar con nosotros vía Twitter y Facebook:</h2><br>
+				<h3>Email: electronicparts27@gmail.com   <br>
+				Twitter: @EParts27   <br>
+				Facebook: En proceso </h3><br><br><br>
+			</footer>
+
+			<div id="Formulario">
+						<body align="left">
+				<h2>Regístrate en nuestro sistema</h2><br><br>
+				<form method="post" id="form1">
+					<label for="name">Nombre: <span class="required">*</span></label><br>
+					<input type="text" id="name" name="name" value="" placeholder="José García" required="" autofocus="">
+					<br>
+					<label for="email">Dirección de correo: <span class="required">*</span></label><br>
+					<input type="email" id="email" name="email" placeholder="pepegarcia@ejemplo.com" required="">
+					<br>
+					<label for="telefono">Teléfono: </label><br>
+					<input type="tel" id="telefono" name="telefono" placeholder="555-12345">
+					<br>
+					<label for="telefono">Contraseña: <span class="required">*</span></label><br>
+					<input id="pass" name="pass" type="password" required="">
+					<br>
+					<label for="telefono">Repetir contraseña: <span class="required">*</span></label><br>
+					<input id="pass2" name="pass2" type="password" required="">
+					<br>
+					<label for="opciones">Opciones: </label><br>
+					<select id="opciones" name="opciones">
+						<option value="opcion1">Estudiante</option>
+						<option value="opcon2">Profesor</option>
+						<option value="opcion3">Otro</option>
+					</select>
+					<br>
+					<input type="submit" value="Enviar" id="submit-button">
+					<p id="req-field-desc"><span class="requerido">*</span> rellenar obligatoriamente</p>
+				</form>
+			</div>
+			
+		</section>
+	</body>
+</html>
